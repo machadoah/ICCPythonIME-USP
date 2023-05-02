@@ -1,0 +1,21 @@
+segundosTotais = int(input("Insira a quantidade total de segundos: "))
+
+# DIA
+dias = segundosTotais // (60 * 60 * 24)
+
+segundosRestantes = segundosTotais % (60 * 60 * 24)
+
+#HORA
+horas = segundosRestantes // (60 * 60)
+
+segundosRestantes = segundosRestantes % (60 * 60)
+
+# MINUTOS
+minutos = segundosRestantes // 60 
+
+segundosRestantes = segundosRestantes % 60
+
+print(segundosTotais, "correspondem a:",  )
+
+print("{} correspondem a: {} dias, {} horas, {} minutos e {} segundos".format(segundosTotais, dias, horas, minutos, segundosRestantes))
+

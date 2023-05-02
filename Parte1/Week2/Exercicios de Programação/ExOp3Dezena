@@ -1,0 +1,16 @@
+numero = int(input("Digite um número inteiro: "))
+
+# // quociente
+# % resto
+
+# numero = qwerty
+
+numero = numero // 10 
+
+# numero = qwert
+
+numero = numero % 10
+
+# numero = t
+
+print("O dígito das dezenas é {}".format(numero))
